@@ -2,12 +2,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Album example · Bootstrap</title>
+    <title>Andrei Chepelev</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
 
@@ -45,7 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="https://www.linkedin.com/in/andrei-chepelev-96050315a/">Linkedin</a>
-            <a class="nav-item nav-link" href="#">Resume</a>
+            <a class="nav-item nav-link" href="{% static 'proposal.pdf' %}">Resume</a>
             <a class="nav-item nav-link" href="/blog">Blog</a>
           </div>
         </div>
@@ -58,7 +59,9 @@
     <div class="container">
       <h1 class="jumbotron-heading">Andrei Chepelev</h1>
       <p class="lead text-muted">High-skilled project manager with working experience at blockchain, digital media and online fitness. Can drive software development from scratch and improve existing products. Agile enthusiast with fluent English and perfect communication skills. Worked in big corporations, midsize businesses and startups, combining software development coordination with business administration and marketing campaigns conducting. Stress-tolerant and well-organized multitasker capable of leading a team of 20+ players. </p>
+      <img src="{%  static '2ismrIdidUo.jpg' %}" />
       <p>
+      <br />
         <a href="mailto:kirkkonen@gmail.com" class="btn btn-primary my-2">Mail me</a>
         <a href="https://t.me/pirunpoika" class="btn btn-secondary my-2">Telegram me</a>
         <a href="skype:+1234567890?call" class="btn btn-primary my-2">Skype me</a>
